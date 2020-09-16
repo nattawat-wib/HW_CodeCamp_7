@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #F7DC6F  ;
+    font-weight: bold;
+}
+
+header p {
+    background-color: #D6EAF8 ;
+    color:  #D4AC0D ;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px auto;
+    height: 100px;
+}
+
+.form-con {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+.form-box {
+    display: grid; 
+    grid-template: auto auto auto / auto auto auto auto ;
+}
+
+.search-button {
+    border-radius: 5px;
+    background-color:#F1948A  ;
+    padding: 10px;
+    font-size: 15px;
+    color: #FDFEFE ;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: none;
+    margin: auto auto 50px 20px;
+}
+
+.search-button:hover {
+    background-color: #D6EAF8  ;
+    color: #273746 ;
+}
+
+form input {
+    margin: 5px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+form p {
+    margin: auto auto auto 20px;
+}
+
+input[type=number] {
+    max-width: 50px;
+}
+
+.span-col-1 {
+    grid-column : 1 / span 2 ;
+}
+
+.span-col-2 {
+    grid-column : 3 / span 5 ;
+}
+
+@media screen and (max-width : 400px) {
+    .form-box {
+        display: grid; 
+        grid-template: auto auto auto / auto auto ;
+    }
+
+    .span-col-1 {
+        grid-column : 1 / span 2 ;
+    }
+    
+    .span-col-2 {
+        grid-column : 1 / span 2 ;
+    }
+
+    .form-con input[title=long]{
+        width: 85vw;
+    }
+
+    input[type=number] {
+        width: 10vw;
+    }
+}
