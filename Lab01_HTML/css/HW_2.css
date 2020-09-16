@@ -43,7 +43,7 @@ header p {
     color: #273746 ;
 }
 
-form input {
+form input,select {
     margin: 5px 20px 20px 20px;
     border-radius: 5px;
 }
@@ -56,6 +56,10 @@ input[type=number] {
     max-width: 50px;
 }
 
+input,select[title=long] {
+    width: 210px;
+}
+
 .span-col-1 {
     grid-column : 1 / span 2 ;
 }
@@ -64,7 +68,7 @@ input[type=number] {
     grid-column : 3 / span 5 ;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 520px) {
     .form-box {
         display: grid; 
         grid-template: auto auto auto / auto auto ;
@@ -78,7 +82,7 @@ input[type=number] {
         grid-column : 1 / span 2 ;
     }
 
-    .form-con input[title=long]{
+    .form-con input,select[title=long]{
         width: 85vw;
     }
 
