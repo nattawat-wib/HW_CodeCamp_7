@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #F7DC6F  ;
+}
+
+* p {
+    line-height: 3rem;
+}
+
+header {
+    text-align: center;
+    background-color: #AED6F1 ;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.res-img {
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+}
+
+.info-box {
+    text-align: center;
+    color:#5DADE2  ;
+    font-size: 20px;
+}
+
+.link:hover {
+    color:#FEF9E7  ;
+    text-decoration: none;
+}
+
+@media (max-width : 1024px) {
+    .res-img{
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width : 1024px) {
+    .container{
+        max-width: auto;
+        height: auto;
+        margin: auto 20px ;
+    }
+}

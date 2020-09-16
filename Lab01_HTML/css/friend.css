@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #F7DC6F  ;
+}
+
+header {
+    text-align: center;
+    background-color: #AED6F1 ;
+    font-size: 30px;
+    margin: 50px auto;
+}
+
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.link:hover {
+    color:#FEF9E7  ;
+    text-decoration: none;
+}
