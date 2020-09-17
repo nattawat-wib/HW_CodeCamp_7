@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #F7DC6F  ;
+}
+
+header {
+    background-color:#EBF5FB ;
+    color:#F39C12 ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px auto;
+    height: 125px;
+}
+
+
+table {
+    margin: 100px auto;
+    display: block;
+    max-width: 500px;
+}
+
+th,td {
+    text-align: center;
+    width: 250px;
+    border : #85C1E9  solid 3px;
+    color: #2980B9 ;
+}
+
+@media screen and (max-width : 140px) {
+    header {
+        display: none;
+    }
+}
