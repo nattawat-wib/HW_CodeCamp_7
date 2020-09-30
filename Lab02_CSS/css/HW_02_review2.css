@@ -12,17 +12,17 @@ header {
     padding: 25px 0px;
 }
 
-/*Table*/
+/*Table Setup*/
 table {
-    border-collapse: collapse;
-    max-width: 1000px;
-    margin: 70px auto;
-    text-align: center;
+    border-collapse: collapse; /*ทำตารางเส้นเดียว*/
+    max-width: 1000px; /*จำกัดความกว้าง*/
+    margin: 70px auto; /*จัดขอบให้อยู่ตรงกลาง*/
+    text-align: center; /*จัด text กลาง*/ 
 }
 
 th,td {
-    border: #EAECEE solid 1px;
-    padding: 10px;
+    border: #EAECEE solid 1px; /*แต่งเส้นตาราง*/
+    padding: 10px; /*เว้นอักษรกับขอบ*/
 }
 
 th {
